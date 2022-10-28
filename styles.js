@@ -25,10 +25,14 @@ const styles = StyleSheet.create({
   },
   bottomContainer: {
     justifyContent: 'center',
-    height: height / 3,
+    height: height / 3.29,
+  },
+  bottomContainer1: {
+    justifyContent: 'center',
+    height: height / 2,
   },
   textInput: {
-    height: 50,
+    height: 42,
     borderWidth: 1,
     borderColor: 'rgba(0, 0, 0, 0.2)',
     marginHorizontal: 20,
@@ -38,7 +42,7 @@ const styles = StyleSheet.create({
   },
   formButton: {
     backgroundColor: 'rgba(215,216,197,0.8)',
-    height: 55,
+    height: 50,
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: 35,
