@@ -127,6 +127,7 @@ const Signup = props => {
             </Text>
             <Text style={{color: darkGreen, fontWeight: 'bold', fontSize: 16}}>
               Terms & Conditions
+              
             </Text>
           </View>
 
