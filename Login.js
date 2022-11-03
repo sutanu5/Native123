@@ -21,7 +21,7 @@ const Login = (props) => {
   const submitSignin = async(e) => {
     console.log('signin');
     console.log("user:", user);
-    if(user.email == "Admin" && user.password=="Admin"){
+    if(user.email == "sutanu@sain.com" && user.password=="1234567890"){
         console.log('login successful');
         alert('login successful');
     }else{

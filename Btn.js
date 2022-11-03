@@ -9,11 +9,11 @@ export default function Btn({bgColor, btnLabel, textColor, Press}) {
         backgroundColor: bgColor,
         borderRadius: 100,
         alignItems: 'center',
-        width: 350,
+        width: 190,
         paddingVertical: 5,
         marginVertical: 10
       }}>
-      <Text style={{color: textColor, fontSize: 25, fontWeight: 'bold'}}>
+      <Text style={{color: textColor, fontSize: 22, fontWeight: 'bold'}}>
         {btnLabel}
       </Text>
     </TouchableOpacity>

@@ -5,8 +5,10 @@ import Background from './Background';
 import Btn from './Btn';
 import {darkGreen} from './Constants';
 import Field from './Field';
+// import {Dropdown }from 'react-native-material-dropdown';
 
 const Signup = props => {
+ 
 
   const [user, setUser] = useState({
     name:"",
@@ -104,6 +106,7 @@ const Signup = props => {
             <Text style={{ color: "red", paddingLeft:30, paddingBottom:10}}>{inputError.email}</Text>
           )}
           <Field placeholder="Gender" onChangeText={(value) => onChangeInput({value:value,name:"gender"})} />
+          
           {!!inputError.gender && (
             <Text style={{ color: "red", paddingLeft:30, paddingBottom:10}}>{inputError.gender}</Text>
           )}
@@ -119,15 +122,15 @@ const Signup = props => {
             style={{
               display: 'flex',
               flexDirection: 'row',
-              width: '78%',
-              paddingRight: 16
+              width: '74%',
+              paddingRight: 29
             }}>
-            <Text style={{color: 'grey', fontSize: 16}}>
+            <Text style={{color: 'grey', fontSize: 13.8}}>
               By signing in, you agree to our{' '}
             </Text>
-            <Text style={{color: darkGreen, fontWeight: 'bold', fontSize: 16}}>
+            <Text style={{color: darkGreen, fontWeight: 'bold', fontSize: 13.8}}>
               Terms & Conditions
-              
+
             </Text>
           </View>
 
@@ -136,14 +139,14 @@ const Signup = props => {
               display: 'flex',
               flexDirection: 'row',
               justifyContent :"center",
-              width: '78%',
-              paddingRight: 16,
+              width: '74%',
+              paddingRight: 12,
               marginBottom: 10
             }}>
-            <Text style={{color: 'grey', fontSize: 16}}>
+            <Text style={{color: 'grey', fontSize: 13.8}}>
               and {" "}
             </Text>
-            <Text style={{color: darkGreen, fontWeight: 'bold', fontSize: 16}}>
+            <Text style={{color: darkGreen, fontWeight: 'bold', fontSize: 13.8}}>
               Privacy Policy
             </Text>
           </View>
